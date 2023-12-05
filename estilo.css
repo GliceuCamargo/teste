@@ -1,0 +1,33 @@
+
+.container{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    display: flex;
+    flex-wrap: wrap;
+   /* justify-content: center;*/
+    /* align-items: space-between; */
+}
+.item{
+    width: 8    0px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(68, 119, 72);
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+    flex: 1;
+    
+   
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+}
